@@ -85,11 +85,5 @@ $result = QueryDb($sql);
 			}
 			echo '<br>';
 		}
-exit();
-$row = FetchSingleRow($sql);
-$namapenerimaan = $row[0];
-$defrekkas = $row[1];
-$smsinfo = (int)$row[2];
-$departemen = $row[3];
 CloseDb();
 ?>
